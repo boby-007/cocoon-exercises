@@ -1,0 +1,18 @@
+.div_img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_size{
+    height: 10%;
+    width:10%
+}
+
+.size{
+    font-size: 0.9rem;
+}

@@ -1,0 +1,43 @@
+<div>select all<input onclick="validatenew()" type="checkbox" name="all" id="main"><br>
+mango
+<input onclick="validate();"class="sub"type="checkbox" name="biriyani" id="set1"><br>
+grapes
+<input onclick="validate();"class="sub"type="checkbox" name="chappathi" id="set2"><br>
+pineapple
+<input onclick="validate();"class="sub"type="checkbox" name="parotta" id="set3">
+
+</div>
+
+<script>
+    // .addEventListener('click',function(){
+        function validatenew(){
+           var a = document.getElementById('main');
+           alert(a.name)
+           var b=document.querySelectorAll('.sub');
+        
+  if (a.checked==true) {
+    b[0].checked=true;
+    b[1].checked=true;
+    b[2].checked=true;
+  }
+    if(a.checked==false){
+        b[0].checked=false;
+        b[1].checked=false;
+        b[2].checked=false;
+    }
+    
+    
+}
+
+
+function validate(){
+    var b=document.querySelectorAll('.sub');
+
+    if(b[0].checked==true && b[1].checked==true && b[2].checked==true){
+    document.getElementById('main').checked=true;
+}
+}
+    
+
+
+</script>

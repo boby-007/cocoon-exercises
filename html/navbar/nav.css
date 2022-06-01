@@ -1,0 +1,43 @@
+body{
+    margin-left: 0px;
+}
+
+.blue{
+    background-color: blue;
+width: 10px;
+transition: 1s;
+
+
+}
+
+.yellow{
+    background-color: yellow;
+    width: 10px;
+
+    transition: 1s;
+
+}
+
+.red{
+    background-color: red;
+    width:10px;
+    transition: 1s;
+}
+     
+
+.red:hover{
+    width:50px;
+    background-color: paleturquoise;
+
+}
+
+.blue:hover{
+    width:50px;
+    background-color: green;
+}
+
+.yellow:hover{
+    width:50px;
+    background-color: grey;
+
+}

@@ -1,0 +1,63 @@
+.div1{
+   
+    background-color: #000;
+    transition: 1s;
+
+}
+
+.div2{
+ 
+    background-color: red;
+    transition: 1s;
+}
+
+.div3{
+   
+    background-color: blue;
+}
+
+.div4{
+   
+    background-color: yellow;
+
+}
+
+.div5{
+    
+    background-color:palevioletred;
+
+}
+
+.div6{
+   
+    background-color:green;
+}
+
+.div7{
+    
+    background-color: gray;
+
+}
+
+h1{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.div1:hover{
+    height: 350px;
+    font-size: smaller
+
+}
+
+
+ .div2:hover{
+    height: 350px;
+    font-size: smaller;
+
+} 
+
+
